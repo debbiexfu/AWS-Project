@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>File Upload</h1>
+
+<form class="mt-5" action="/add" method="POST" enctype = "multipart/form-data">
+    <div class="field">
+
+        <label>File: </label>
+        <input type = "file" name = "file" />
+     
+    </div>
+    <div class="field">
+            <label>Sent to:</label>
+            <input type="text" name="email1" placeholder="Email"><br>
+            <label>Sent to:</label>
+            <input type="text" name="email2" placeholder="Optional"><br>
+            <label>Sent to:</label>
+            <input type="text" name="email3" placeholder="Optional"><br>
+            <label>Sent to:</label>
+            <input type="text" name="email4" placeholder="Optional"><br>
+            <label>Sent to:</label>
+            <input type="text" name="email5" placeholder="Optional"><br>
+            
+    </div>
+    
+    <button class="ui blue button" type="submit" value="Send">Send</button>
+</form>
+
+</body>
+</html>

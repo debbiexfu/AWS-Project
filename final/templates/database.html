@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Files Uploaded</h1>
+<form class="mt-5" action="/database.html" method="POST">
+    <div class="field">
+        <label>Search by User Email:</label>
+        <input type="text" name="dbuser" placeholder="Email"><button class="ui blue button" type="submit" value="Search">Search</button>
+    </div>
+    <h3>Files: {{ files }}<h3>
+</form>
+<form action="/login.html" method="GET">
+    <button type="submit">Return to Log In</button>
+</form>
+
+</body>
+</html>
